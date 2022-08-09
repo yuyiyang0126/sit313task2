@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="hcontainer">
+        <img src="https://images.squarespace-cdn.com/content/v1/5bc6c7b5fb22a574a503454e/1629681001457-KT1O3EJ2U9YPWBFYJQ0Q/hero-front_of_deakin-university-deakin_university-1.jpg" alt="Avatar" class="himage" style="width:100%">
+      </div>
+    </div>
+           <h1> Welcome To The Dev@Deakin Webpage</h1>
+    <div class="subscription_form">
+      <h3 class="subscription_form__title">Subscribe to Dev@Deakin</h3>
+      <form method="POST" action="/sendemail">
+        <div class="subscription_form__input">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Enter your name" />
+        </div>
+        <div class="subscription_form__input">
+          <label>Surname</label>
+          <input
+            type="text"
+            name="surname"
+            placeholder="Enter your surname"
+          />
+        </div>
+        <div class="subscription_form__input">
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <button class="subscription_form__submitBtn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+*
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Oswald";
+  }
+  
+  .subscription_form {
+    width: 20rem;
+    font-family: "Oswald";
+    background: bisque;
+    margin: 4rem auto;
+    padding: 3rem;
+    box-shadow: 2px 2px burlywood
+    
+  }
+  
+  .subscription_form__title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Oswald";
+  }
+  
+  .subscription_form__inputGroup {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: "Oswald";
+  }
+  
+  .subscriptiont_form__inputGroup label {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .subscription_form__inputGroup input {
+    padding: 16px 18px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+  
+  .subscription_form__submitBtn {
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 8px;
+    font-family: "Oswald";
+    background: black;
+    color: white;
+    padding: 6px 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .subscription_form__submitBtn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .send_pageBox {
+    width: 30rem;
+    background: bisque;
+    margin: 5rem auto;
+    padding: 2rem;
+    box-shadow: 2px 2px #999;
+  }
+  
+  .send_pageBox_title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Oswald";
+  }
+  
+  .send_pageBox_Link {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background:black;
+    color: white;
+    padding: 9px 16px;
+    margin-bottom: 0.8rem;
+    font-family: "Oswald";
+  }
+  
+  .send_pageBox_Link:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .topcontainer {
+    margin: 0 auto;
+    padding: 20px;;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: large;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100px;
+    overflow: hidden;
+    padding: 0px 20px;
+}
